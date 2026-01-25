@@ -1,3 +1,3 @@
 # Portfolio
 
-This GitHub repository, "Portfolio" is created to control the versions of the Portfolio of Abdun Nafay Rathore, The Elite Hat.
+This GitHub repository, "elite-hat-193/Portfolio" is created to control the versions of the Portfolio of Abdun Nafay Rathore, The Elite Hat.
