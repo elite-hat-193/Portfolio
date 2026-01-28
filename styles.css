@@ -28,3 +28,13 @@ body.dark {
   --txt2: hsl(0, 100%, 0%);
   --txt3: hsl(0, 100%, 0%);
 }
+
+/*==========================
+=====   BODY styling   =====
+==========================*/
+
+body {
+  background-color: var(--bg);
+
+  font-family: sans-serif;
+}
