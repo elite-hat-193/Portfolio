@@ -16,7 +16,7 @@
 }
 
 body.dark {
-  --bg: hsl(0, 100%, 100%);
+  --bg: hsl(0, 100%, 0%);
   --bg-i: hsl(0, 100%, 0%);
 
   --bg1: hsla(0, 100%, 100%, 1);
@@ -37,4 +37,15 @@ body {
   background-color: var(--bg);
 
   font-family: sans-serif;
+}
+
+/*=====================
+=====   GENERAL   =====
+=====================*/
+
+* {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0ms;
 }
