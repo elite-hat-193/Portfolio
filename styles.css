@@ -1,1 +1,52 @@
+/*==================================
+=====   Variable Declaration   =====
+==================================*/
+:root {
+  --bg: hsl(0, 100%, 100%);
+  --bg-i: hsl(0, 100%, 0%);
+
+  --bg1: hsla(0, 100%, 100%, 0.8);
+  --bg2: hsla(0, 100%, 100%, 0.6);
+  --bg3: hsla(0, 100%, 100%, 0.4);
+  --bg4: hsla(0, 100%, 100%, 0.2);
+
+  --txt1: hsl(0, 100%, 0%);
+  --txt2: hsl(0, 100%, 0%);
+  --txt3: hsl(0, 100%, 0%);
+}
+
+body.dark {
+  --bg: hsl(0, 100%, 0%);
+  --bg-i: hsl(0, 100%, 0%);
+
+  --bg1: hsla(0, 100%, 100%, 0.8);
+  --bg2: hsla(0, 100%, 100%, 0.6);
+  --bg3: hsla(0, 100%, 100%, 0.4);
+  --bg4: hsla(0, 100%, 100%, 0.2);
+
+  --txt1: hsl(0, 100%, 0%);
+  --txt2: hsl(0, 100%, 0%);
+  --txt3: hsl(0, 100%, 0%);
+}
+
+/*==========================
+=====   BODY styling   =====
+==========================*/
+
+body {
+  background-color: var(--bg);
+
+  font-family: sans-serif;
+}
+
+/*=====================
+=====   GENERAL   =====
+=====================*/
+
+* {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0ms;
+}
 
